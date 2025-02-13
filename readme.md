@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ### 4️⃣ Run the Streamlit App
 ```bash
-streamlit run app.py
+streamlit run home.py
 ```
 
 ### 5️⃣ Upload a PDF and Query
