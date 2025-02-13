@@ -8,3 +8,4 @@ langchain_openai
 chromadb
 streamlit
 openai
+pysqlite3-binary
