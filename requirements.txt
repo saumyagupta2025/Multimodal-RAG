@@ -8,4 +8,4 @@ langchain_openai
 chromadb
 streamlit
 openai
-
+unstructured[all-docs]
