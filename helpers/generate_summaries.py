@@ -28,7 +28,7 @@ def summarize_texts(texts, llm):
         Table or text chunk:{element}
     '''
     prompt = ChatPromptTemplate.from_template(prompt_text)
-    model = ChatGroq(temperature=0.5, model='llama-3.1-8b-instant', groq_api_key=GROQ_API_KEY)
+    # model = ChatGroq(temperature=0.5, model='llama-3.1-8b-instant', groq_api_key=GROQ_API_KEY)
     summarize_chain = prompt | llm | StrOutputParser()
     
     return summarize_chain.batch(texts)
