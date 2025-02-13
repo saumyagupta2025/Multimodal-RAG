@@ -9,3 +9,8 @@ chromadb
 streamlit
 openai
 unstructured[all-docs]
+streamlit
+poppler-utils
+pytesseract
+python-magic
+
