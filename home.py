@@ -40,7 +40,7 @@ if st.button("🚀 Get Started"):
     st.switch_page("./pages/rag_implementation.py")  # Ensure your app follows multi-page Streamlit structure
 
 
-st.write(f"SQLite Version: {sqlite3.sqlite_version}")
+# st.write(f"SQLite Version: {sqlite3.sqlite_version}")
 st.markdown(
     "<div style='position: fixed; bottom: 10px; width: 100%; color: gray;'>"
     "⚠️ Note: Currently, the app does not show retrieved documents but only the LLM response. This feature will be added in future updates."
