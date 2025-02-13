@@ -3,6 +3,14 @@
 ## 📄🔍 Overview
 Many documents contain a combination of **text, tables, and images**, making retrieval difficult for traditional RAG (Retrieval-Augmented Generation) systems. Our **Multimodal RAG** overcomes this by leveraging **multimodal embeddings** and **LLMs** to process and retrieve data effectively.
 
+![Demo](https://raw.githubusercontent.com/YourRepo/main/demo.gif)
+
+## 🚀 Key Features
+- **Supports Multimodal Data**: Handles **text, tables, and images** for better document understanding.
+- **Advanced Retrieval**: Uses **semantic search** with text embeddings in **VectorDB**.
+- **Summarization & Indexing**: Generates **summaries** for extracted content to enhance retrieval.
+- **Efficient Query Processing**: Ensures **faster and more accurate** search results.
+
 ## 🛠️ System Architecture
 This system processes **PDF documents** containing **text, tables, and images** to enable efficient information retrieval. It follows these key steps:
 
@@ -10,12 +18,6 @@ This system processes **PDF documents** containing **text, tables, and images** 
 - **Multimodal Processing**: Uses an **LLM (e.g., GPT-4o-mini, Gemini-1.5-pro)** to generate summaries for extracted content.
 - **Storage & Indexing**: Saves **original content** and **summaries** in a document store, while text embeddings are stored in **VectorDB**.
 - **Retrieval & Querying**: Retrieves relevant documents based on **semantic search** and presents the **original text, tables, and images**.
-
-## 🚀 Key Features
-- **Supports Multimodal Data**: Handles **text, tables, and images** for better document understanding.
-- **Advanced Retrieval**: Uses **semantic search** with text embeddings in **VectorDB**.
-- **Summarization & Indexing**: Generates **summaries** for extracted content to enhance retrieval.
-- **Efficient Query Processing**: Ensures **faster and more accurate** search results.
 
 ![Architecture Diagram](<Architecture Diagram.png>)
 
