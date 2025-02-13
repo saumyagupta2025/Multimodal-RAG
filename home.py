@@ -37,7 +37,7 @@ st.write("""
 
 st.write("🔎 Ready to experience the magic of Multimodal RAG?")
 if st.button("🚀 Get Started"):
-    st.switch_page("pages/app.py")  # Ensure your app follows multi-page Streamlit structure
+    st.switch_page("./pages/app.py")  # Ensure your app follows multi-page Streamlit structure
 
 st.markdown(
     "<div style='position: fixed; bottom: 10px; width: 100%; color: gray;'>"
