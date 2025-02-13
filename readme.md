@@ -3,7 +3,7 @@
 ## 📄🔍 Overview
 Many documents contain a combination of **text, tables, and images**, making retrieval difficult for traditional RAG (Retrieval-Augmented Generation) systems. Our **Multimodal RAG** overcomes this by leveraging **multimodal embeddings** and **LLMs** to process and retrieve data effectively.
 
-![Demo](https://raw.githubusercontent.com/YourRepo/main/demo.gif)
+![Demo](https://raw.githubusercontent.com/saumyagupta2025/Multimodal-RAG/main/demo.gif)
 
 ## 🚀 Key Features
 - **Supports Multimodal Data**: Handles **text, tables, and images** for better document understanding.
