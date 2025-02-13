@@ -1,9 +1,5 @@
 import streamlit as st
 from PIL import Image
-import pysqlite3
-
-sys.modules["sqlite3"] = pysqlite3
-import sqlite3
 
 # Set Page Configuration
 st.set_page_config(page_title="Multimodal RAG", layout="wide")

@@ -8,12 +8,12 @@ from helpers.handle_pdf_partition import process_pdf, get_texts_from_chunks, get
 from helpers.generate_summaries import summarize_texts, summarize_tables, summarize_images
 from helpers.loading_data_to_db import store_summaries1
 from helpers.rag_pipeline import parse_docs, build_prompt1  # Assuming these are defined elsewhere
-import chromadb
+# import chromadb
 import tempfile
 # from helpers.show_context import render_page
 
 # Clear system cache
-chromadb.api.client.SharedSystemClient.clear_system_cache()
+# chromadb.api.client.SharedSystemClient.clear_system_cache()
 
 # Initialize session state variables
 if "retriever" not in st.session_state:
