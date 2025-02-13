@@ -23,7 +23,7 @@ It follows these key steps:
 """)
 
 # Display Architecture Diagram
-st.image(Image.open("Architecture Diagram.png"), caption="Multimodal RAG Architecture", use_column_width=True)
+st.image(Image.open("Architecture Diagram.png"), caption="Multimodal RAG Architecture", use_container_width=True)
 
 # Features Section
 st.header("🚀 Key Features")
