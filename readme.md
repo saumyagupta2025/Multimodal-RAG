@@ -24,9 +24,9 @@ This system processes **PDF documents** containing **text, tables, and images** 
 Ensure you have the following installed on your system:
 - Python 3.8+
 - pip
-- [Streamlit](https://streamlit.io/)
-- [Unstructured] for document parsing
-- [ChromaDB] for vector storage (or alternative VectorDB)
+- Streamlit
+- Unstructured for document parsing
+- ChromaDB for vector storage (or alternative VectorDB)
 - Poppler, Tesseract, and libmagic (for additional PDF/image processing)
   ```bash
   brew install poppler tesseract libmagic
