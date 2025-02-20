@@ -52,10 +52,8 @@ streamlit run home.py
 - Upload a document containing **text, tables, and images**.
 - Ask questions related to the document.
 - Get relevant **retrieved content** with LLM-generated responses.
-
-## 📌 Notes
 - The app now displays **retrieved documents along with LLM responses**.
-- Ensure that **Architecture Diagram.png** is placed in the root directory for proper display.
+- (Ensure that **Architecture Diagram.png** is placed in the root directory for proper display.)
 
 ## 💡 Future Enhancements
 - Display the **retrieved documents along with LLM-generated responses**.
